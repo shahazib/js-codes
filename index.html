@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hhh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Functions and Events</h1>
+
+    
+    <h2>1. Power Function</h2>
+    <input type="number" id="base" placeholder="Base (a)">
+    <input type="number" id="exponent" placeholder="Exponent (b)">
+    <button onclick="calculatePower()">Calculate Power</button>
+    <p id="powerResult"></p>
+
+    
+    <h2>2. Leap Year Checker</h2>
+    <input type="number" id="yearInput" placeholder="Enter Year">
+    <button onclick="checkLeapYear()">Check Leap Year</button>
+    <p id="leapYearResult"></p>
+
+   
+    <h2>3. Area of Triangle</h2>
+    <input type="number" id="sideA" placeholder="Side A (a)">
+    <input type="number" id="sideB" placeholder="Side B (b)">
+    <input type="number" id="sideC" placeholder="Side C (c)">
+    <button onclick="calculateTriangleArea()">Calculate Area</button>
+    <p id="areaResult"></p>
+
+    
+    <h2>4. Marks Average and Percentage</h2>
+    <input type="number" id="marks1" placeholder="Marks in Subject 1">
+    <input type="number" id="marks2" placeholder="Marks in Subject 2">
+    <input type="number" id="marks3" placeholder="Marks in Subject 3">
+    <button onclick="mainFunction()">Calculate Average & Percentage</button>
+    <p id="marksResult"></p>
+
+    <!-- 5. Custom indexOf Function -->
+    <h2>5. Custom indexOf Function</h2>
+    <input type="text" id="textInput" placeholder="Enter Text">
+    <input type="text" id="charInput" placeholder="Character to find">
+    <button onclick="customIndexOf()">Find Character Index</button>
+    <p id="indexOfResult"></p>
+
+    <!-- 6. Remove Vowels -->
+    <h2>6. Remove Vowels</h2>
+    <input type="text" id="sentenceInput" placeholder="Enter Sentence (max 25 chars)">
+    <button onclick="removeVowels()">Remove Vowels</button>
+    <p id="removeVowelsResult"></p>
+
+    
+    <h2>7. Count Consecutive Vowels</h2>
+    <input type="text" id="vowelText" placeholder="Enter Text">
+    <button onclick="countConsecutiveVowels()">Count Consecutive Vowels</button>
+    <p id="consecutiveVowelsResult"></p>
+
+    
+    <h2>8. Distance Converter</h2>
+    <input type="number" id="distanceKm" placeholder="Distance in KM">
+    <button onclick="convertDistance()">Convert Distance</button>
+    <p id="distanceResult"></p>
+
+    
+    <h2>9. Overtime Pay Calculator</h2>
+    <input type="number" id="hoursWorked" placeholder="Enter hours worked">
+    <button onclick="calculateOvertimePay()">Calculate Overtime Pay</button>
+    <p id="overtimeResult"></p>
+
+    <h2>10. Cashier Currency Notes</h2>
+    <input type="number" id="withdrawAmount" placeholder="Withdraw Amount (in hundreds)">
+    <button onclick="calculateCurrencyNotes()">Calculate Currency Notes</button>
+    <p id="currencyNotesResult"></p>
+
+    <script src="script.js"></script> 
+</body>
+</html>
